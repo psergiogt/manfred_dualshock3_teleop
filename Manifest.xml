@@ -1,0 +1,26 @@
+<package>
+  <description brief="manfred_teleop">
+
+     The manfred_teleop package, to teleop MANFRED robot with PS3 controller
+
+  </description>
+  <author>Sergio PÃ©rez</author>
+  <license>BSD</license>
+  <review status="reviewed" notes=""/>
+  <url>http://ros.org/wiki/manfred_teleop</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+  <depend package="ps3joy"/>
+  <depend package="rviz"/>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+  <depend package="trajectory_msgs"/>
+  <depend package="topic_tools"/>
+  <depend package="robot_state_publisher"/>
+  <depend package="pmac"/>
+  <depend package="manfred_arm_msgs"/>
+
+</package>
+
